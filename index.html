@@ -1,377 +1,384 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Wedding of Eleanor & Theodore</title>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
-    
-    <!-- FontAwesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="locked">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="locked">
     <!-- Opening Cover -->
     <section id="cover" class="cover-section">
-        <div class="cover-bg" style="background-image: url('assets/images/cover_bg_1784545372399.jpg');"></div>
-        <div class="cover-overlay"></div>
-        <div class="cover-content">
-            <h4 class="fade-up">The Wedding Of</h4>
-            <h1 class="fade-up delay-1">Eleanor & Theodore</h1>
-            <div class="guest-info fade-up delay-2">
-                <p>Dear,</p>
-                <h3 id="guest-name">Guest Name</h3>
-                <p>You are invited!</p>
-            </div>
-            <button id="open-invitation" class="btn-primary fade-up delay-3">
-                <i class="fa-solid fa-envelope-open"></i> Open Invitation
-            </button>
+      <div class="cover-bg" style="background-image: url('assets/images/cover_bg_1784545372399.jpg')"></div>
+      <div class="cover-overlay"></div>
+      <div class="cover-content">
+        <h4 class="fade-up">The Wedding Of</h4>
+        <h1 class="fade-up delay-1">Eleanor & Theodore</h1>
+        <div class="guest-info fade-up delay-2">
+          <p>Dear,</p>
+          <h3 id="guest-name">Sarmila Wati</h3>
+          <p>You are invited!</p>
         </div>
+        <button id="open-invitation" class="btn-primary fade-up delay-3"><i class="fa-solid fa-envelope-open"></i> Open Invitation</button>
+      </div>
     </section>
 
     <!-- Main Content wrapper (hidden initially) -->
     <main id="main-content" class="hidden">
-        
-        <!-- Navigation -->
-        <nav id="navbar">
-            <div class="nav-container">
-                <div class="logo">E & T</div>
-                <div class="hamburger">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#couple">Couple</a></li>
-                    <li><a href="#story">Story</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#rsvp">RSVP</a></li>
-                </ul>
-            </div>
-        </nav>
+      <!-- Navigation -->
+      <nav id="navbar">
+        <div class="nav-container">
+          <div class="logo">E & T</div>
+          <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#couple">Couple</a></li>
+            <li><a href="#story">Story</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+          </ul>
+        </div>
+      </nav>
 
-        <!-- Bottom Mobile Nav -->
-        <nav id="bottom-nav" class="mobile-only">
-            <ul>
-                <li><a href="#hero"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
-                <li><a href="#couple"><i class="fa-solid fa-heart"></i><span>Couple</span></a></li>
-                <li><a href="#events"><i class="fa-regular fa-calendar"></i><span>Events</span></a></li>
-                <li><a href="#gallery"><i class="fa-regular fa-image"></i><span>Gallery</span></a></li>
-                <li><a href="#rsvp"><i class="fa-solid fa-envelope-open-text"></i><span>RSVP</span></a></li>
-            </ul>
-        </nav>
+      <!-- Bottom Mobile Nav -->
+      <nav id="bottom-nav" class="mobile-only">
+        <ul>
+          <li>
+            <a href="#hero"><i class="fa-solid fa-house"></i><span>Home</span></a>
+          </li>
+          <li>
+            <a href="#couple"><i class="fa-solid fa-heart"></i><span>Couple</span></a>
+          </li>
+          <li>
+            <a href="#events"><i class="fa-regular fa-calendar"></i><span>Events</span></a>
+          </li>
+          <li>
+            <a href="#gallery"><i class="fa-regular fa-image"></i><span>Gallery</span></a>
+          </li>
+          <li>
+            <a href="#rsvp"><i class="fa-solid fa-envelope-open-text"></i><span>RSVP</span></a>
+          </li>
+        </ul>
+      </nav>
 
-        <!-- Hero Section -->
-        <section id="hero" class="section hero-section">
-            <div class="hero-bg" style="background-image: url('assets/images/couple_hero_1784545389455.jpg');"></div>
-            <div class="hero-overlay"></div>
-            <div class="hero-content container scroll-anim">
-                <h4>We Are Getting Married</h4>
-                <h1>Eleanor<br>&<br>Theodore</h1>
-                <p class="wedding-date">Saturday, 25 October 2026</p>
-                
-                <div class="countdown" id="countdown">
-                    <div class="time-box">
-                        <span id="days">00</span>
-                        <p>Days</p>
-                    </div>
-                    <div class="time-box">
-                        <span id="hours">00</span>
-                        <p>Hours</p>
-                    </div>
-                    <div class="time-box">
-                        <span id="minutes">00</span>
-                        <p>Mins</p>
-                    </div>
-                    <div class="time-box">
-                        <span id="seconds">00</span>
-                        <p>Secs</p>
-                    </div>
-                </div>
-            </div>
-            <div class="scroll-indicator">
-                <p>Scroll Down</p>
-                <i class="fa-solid fa-chevron-down"></i>
-            </div>
-        </section>
+      <!-- Hero Section -->
+      <section id="hero" class="section hero-section">
+        <div class="hero-bg" style="background-image: url('assets/images/couple_hero_1784545389455.jpg')"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content container scroll-anim">
+          <h4>We Are Getting Married</h4>
+          <h1>Eleanor<br />&<br />Theodore</h1>
+          <p class="wedding-date">Saturday, 25 October 2026</p>
 
-        <!-- Quote Section -->
-        <section id="quote" class="section quote-section bg-ivory">
-            <div class="container scroll-anim">
-                <i class="fa-solid fa-quote-left quote-icon"></i>
-                <blockquote>
-                    "And I'd choose you; in a hundred lifetimes, in a hundred worlds, in any version of reality, I'd find you and I'd choose you."
-                </blockquote>
-                <p class="quote-author">- Kiersten White</p>
+          <div class="countdown" id="countdown">
+            <div class="time-box">
+              <span id="days">00</span>
+              <p>Days</p>
             </div>
-        </section>
-
-        <!-- Bride & Groom -->
-        <section id="couple" class="section couple-section">
-            <div class="container">
-                <div class="section-title scroll-anim">
-                    <h2>Bride & Groom</h2>
-                    <p>With the grace and blessing of God, we invite you to our wedding.</p>
-                </div>
-                
-                <div class="couple-grid">
-                    <!-- Bride -->
-                    <div class="person-card scroll-anim left">
-                        <div class="person-image">
-                            <img src="assets/images/bride_portrait_1784545401041.jpg" alt="Eleanor" class="bride-img">
-                            <div class="image-frame"></div>
-                        </div>
-                        <h3 class="person-name">Eleanor Rose</h3>
-                        <p class="parents">Daughter of Mr. Robert Rose & Mrs. Sarah Rose</p>
-                        <a href="https://instagram.com" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i> @eleanor.rose</a>
-                    </div>
-                    
-                    <div class="ampersand scroll-anim">
-                        <h2>&</h2>
-                    </div>
-                    
-                    <!-- Groom -->
-                    <div class="person-card scroll-anim right">
-                        <div class="person-image">
-                            <img src="assets/images/groom_portrait_1784545410931.jpg" alt="Theodore" class="groom-img">
-                            <div class="image-frame"></div>
-                        </div>
-                        <h3 class="person-name">Theodore Vance</h3>
-                        <p class="parents">Son of Mr. Arthur Vance & Mrs. Diana Vance</p>
-                        <a href="https://instagram.com" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i> @theodore.v</a>
-                    </div>
-                </div>
+            <div class="time-box">
+              <span id="hours">00</span>
+              <p>Hours</p>
             </div>
-        </section>
-
-        <!-- Love Story Timeline -->
-        <section id="story" class="section story-section bg-ivory">
-            <div class="container">
-                <div class="section-title scroll-anim">
-                    <h2>Our Love Story</h2>
-                    <p>A journey from our first hello to forever.</p>
-                </div>
-                
-                <div class="timeline">
-                    <div class="timeline-item scroll-anim left">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>First Meeting</h3>
-                            <span class="date">January 15, 2022</span>
-                            <p>We met at a cozy coffee shop downtown. It was raining, and we ended up sharing a table and talking for hours.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="timeline-item scroll-anim right">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>Officially Dating</h3>
-                            <span class="date">May 20, 2022</span>
-                            <p>After months of wonderful dates, we finally made it official during a beautiful sunset walk on the beach.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="timeline-item scroll-anim left">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>The Proposal</h3>
-                            <span class="date">December 24, 2024</span>
-                            <p>Under the magical Christmas lights, Theodore got down on one knee, and Eleanor said yes without hesitation.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="time-box">
+              <span id="minutes">00</span>
+              <p>Mins</p>
             </div>
-        </section>
-
-        <!-- Events -->
-        <section id="events" class="section events-section">
-            <div class="container">
-                <div class="section-title scroll-anim">
-                    <h2>Wedding Events</h2>
-                    <p>We can't wait to celebrate with you.</p>
-                </div>
-                
-                <div class="events-grid">
-                    <!-- Ceremony -->
-                    <div class="event-card glass-panel scroll-anim left">
-                        <div class="event-icon"><i class="fa-solid fa-ring"></i></div>
-                        <h3>Holy Matrimony</h3>
-                        <div class="event-details">
-                            <p><i class="fa-regular fa-calendar"></i> Saturday, 25 Oct 2026</p>
-                            <p><i class="fa-regular fa-clock"></i> 09:00 AM - 11:00 AM</p>
-                            <p><i class="fa-solid fa-location-dot"></i> <strong>St. Patrick's Cathedral</strong><br>5th Ave, New York</p>
-                        </div>
-                        <a href="#" class="btn-outline">Save to Calendar</a>
-                    </div>
-                    
-                    <!-- Reception -->
-                    <div class="event-card glass-panel scroll-anim right">
-                        <div class="event-icon"><i class="fa-solid fa-champagne-glasses"></i></div>
-                        <h3>Wedding Reception</h3>
-                        <div class="event-details">
-                            <p><i class="fa-regular fa-calendar"></i> Saturday, 25 Oct 2026</p>
-                            <p><i class="fa-regular fa-clock"></i> 18:00 PM - End</p>
-                            <p><i class="fa-solid fa-location-dot"></i> <strong>The Plaza Hotel</strong><br>768 5th Ave, New York</p>
-                        </div>
-                        <a href="#" class="btn-outline">Save to Calendar</a>
-                    </div>
-                </div>
-                
-                <!-- Map Embed -->
-                <div class="map-container scroll-anim">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.0620610996163!2d-73.97827822435555!3d40.76063643464161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f0004ffbe5%3A0x6b77afbdf8b6e65a!2sSt.%20Patrick&#39;s%20Cathedral!5e0!3m2!1sen!2sid!4v1714457718037!5m2!1sen!2sid" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <a href="https://maps.google.com" target="_blank" class="btn-primary map-btn"><i class="fa-solid fa-map-location-dot"></i> Open Google Maps</a>
-                </div>
+            <div class="time-box">
+              <span id="seconds">00</span>
+              <p>Secs</p>
             </div>
-        </section>
+          </div>
+        </div>
+        <div class="scroll-indicator">
+          <p>Scroll Down</p>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </section>
 
-        <!-- Gallery -->
-        <section id="gallery" class="section gallery-section bg-ivory">
-            <div class="container">
-                <div class="section-title scroll-anim">
-                    <h2>Our Gallery</h2>
-                    <p>Beautiful moments we've shared together.</p>
-                </div>
-                
-                <div class="gallery-masonry" id="gallery-container">
-                    <div class="gallery-item scroll-anim"><img src="assets/images/gallery_1_1784545429181.jpg" class="gal-img" alt="Gallery"></div>
-                    <div class="gallery-item scroll-anim"><img src="assets/images/gallery_2_1784545438542.jpg" class="gal-img" alt="Gallery"></div>
-                    <div class="gallery-item scroll-anim"><img src="assets/images/couple_hero_1784545389455.jpg" class="gal-img" alt="Gallery"></div>
-                    <div class="gallery-item scroll-anim"><img src="assets/images/bride_portrait_1784545401041.jpg" class="gal-img" alt="Gallery"></div>
-                    <div class="gallery-item scroll-anim"><img src="assets/images/groom_portrait_1784545410931.jpg" class="gal-img" alt="Gallery"></div>
-                </div>
+      <!-- Quote Section -->
+      <section id="quote" class="section quote-section bg-ivory">
+        <div class="container scroll-anim">
+          <i class="fa-solid fa-quote-left quote-icon"></i>
+          <blockquote>"And I'd choose you; in a hundred lifetimes, in a hundred worlds, in any version of reality, I'd find you and I'd choose you."</blockquote>
+          <p class="quote-author">- Kiersten White</p>
+        </div>
+      </section>
+
+      <!-- Bride & Groom -->
+      <section id="couple" class="section couple-section">
+        <div class="container">
+          <div class="section-title scroll-anim">
+            <h2>Bride & Groom</h2>
+            <p>With the grace and blessing of God, we invite you to our wedding.</p>
+          </div>
+
+          <div class="couple-grid">
+            <!-- Bride -->
+            <div class="person-card scroll-anim left">
+              <div class="person-image">
+                <img src="assets/images/bride_portrait_1784545401041.jpg" alt="Eleanor" class="bride-img" />
+                <div class="image-frame"></div>
+              </div>
+              <h3 class="person-name">Eleanor Rose</h3>
+              <p class="parents">Daughter of Mr. Robert Rose & Mrs. Sarah Rose</p>
+              <a href="https://instagram.com" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i> @eleanor.rose</a>
             </div>
-            
-            <!-- Lightbox -->
-            <div id="lightbox" class="lightbox">
-                <span class="close-lightbox">&times;</span>
-                <img class="lightbox-content" id="lightbox-img">
+
+            <div class="ampersand scroll-anim">
+              <h2>&</h2>
             </div>
-        </section>
 
-        <!-- RSVP & Wishes -->
-        <section id="rsvp" class="section rsvp-section">
-            <div class="container">
-                <div class="rsvp-wishes-grid">
-                    <!-- RSVP Form -->
-                    <div class="rsvp-container glass-panel scroll-anim left">
-                        <h2>RSVP</h2>
-                        <p>Please confirm your attendance.</p>
-                        <form id="rsvp-form">
-                            <div class="form-group">
-                                <label for="name">Full Name</label>
-                                <input type="text" id="name" required placeholder="e.g. John Doe">
-                            </div>
-                            <div class="form-group">
-                                <label for="attendance">Will you attend?</label>
-                                <select id="attendance" required>
-                                    <option value="" disabled selected>Select option</option>
-                                    <option value="yes">Yes, I will attend</option>
-                                    <option value="no">Sorry, I can't come</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="guests">Number of Guests</label>
-                                <input type="number" id="guests" min="1" max="5" value="1">
-                            </div>
-                            <button type="submit" class="btn-primary w-100">Send RSVP</button>
-                        </form>
-                    </div>
-
-                    <!-- Wishes -->
-                    <div class="wishes-container glass-panel scroll-anim right">
-                        <h2>Wedding Wishes</h2>
-                        <form id="wish-form">
-                            <div class="form-group">
-                                <input type="text" id="wisher-name" required placeholder="Your Name">
-                            </div>
-                            <div class="form-group">
-                                <textarea id="wish-text" rows="3" required placeholder="Write your wishes here..."></textarea>
-                            </div>
-                            <button type="submit" class="btn-outline w-100">Send Wish</button>
-                        </form>
-                        
-                        <div class="wishes-list" id="wishes-list">
-                            <!-- Existing wishes -->
-                            <div class="wish-card">
-                                <h4>Sarah & Family <span class="badge success">Attending</span></h4>
-                                <p>Congratulations Eleanor and Theodore! Wishing you a lifetime of happiness and love. Can't wait for the big day!</p>
-                                <span class="time">Just now</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <!-- Groom -->
+            <div class="person-card scroll-anim right">
+              <div class="person-image">
+                <img src="assets/images/groom_portrait_1784545410931.jpg" alt="Theodore" class="groom-img" />
+                <div class="image-frame"></div>
+              </div>
+              <h3 class="person-name">Theodore Vance</h3>
+              <p class="parents">Son of Mr. Arthur Vance & Mrs. Diana Vance</p>
+              <a href="https://instagram.com" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i> @theodore.v</a>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Gifts -->
-        <section id="gifts" class="section gifts-section bg-ivory">
-            <div class="container">
-                <div class="section-title scroll-anim">
-                    <h2>Wedding Gift</h2>
-                    <p>Your blessing is the most meaningful gift to us. However, if you wish to give a gift, you can use the details below.</p>
-                </div>
-                
-                <div class="gifts-grid">
-                    <div class="gift-card scroll-anim left">
-                        <i class="fa-solid fa-building-columns gift-icon"></i>
-                        <h3>Bank Transfer</h3>
-                        <p class="bank-name">BCA</p>
-                        <p class="account-number" id="acc-1">1234567890</p>
-                        <p class="account-name">Eleanor Rose</p>
-                        <button class="btn-copy" onclick="copyText('acc-1', this)">
-                            <i class="fa-regular fa-copy"></i> Copy Number
-                        </button>
-                    </div>
-                    
-                    <div class="gift-card scroll-anim right">
-                        <i class="fa-solid fa-building-columns gift-icon"></i>
-                        <h3>Bank Transfer</h3>
-                        <p class="bank-name">Mandiri</p>
-                        <p class="account-number" id="acc-2">0987654321</p>
-                        <p class="account-name">Theodore Vance</p>
-                        <button class="btn-copy" onclick="copyText('acc-2', this)">
-                            <i class="fa-regular fa-copy"></i> Copy Number
-                        </button>
-                    </div>
-                </div>
+      <!-- Love Story Timeline -->
+      <section id="story" class="section story-section bg-ivory">
+        <div class="container">
+          <div class="section-title scroll-anim">
+            <h2>Our Love Story</h2>
+            <p>A journey from our first hello to forever.</p>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item scroll-anim left">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>First Meeting</h3>
+                <span class="date">January 15, 2022</span>
+                <p>We met at a cozy coffee shop downtown. It was raining, and we ended up sharing a table and talking for hours.</p>
+              </div>
             </div>
-        </section>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="container scroll-anim">
-                <h2>Eleanor & Theodore</h2>
-                <p>Thank you for being part of our special day.</p>
-                <div class="socials">
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                </div>
-                <p class="copyright">&copy; 2026 Eleanor & Theodore. Designed with ❤️</p>
+            <div class="timeline-item scroll-anim right">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Officially Dating</h3>
+                <span class="date">May 20, 2022</span>
+                <p>After months of wonderful dates, we finally made it official during a beautiful sunset walk on the beach.</p>
+              </div>
             </div>
-        </footer>
 
+            <div class="timeline-item scroll-anim left">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>The Proposal</h3>
+                <span class="date">December 24, 2024</span>
+                <p>Under the magical Christmas lights, Theodore got down on one knee, and Eleanor said yes without hesitation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Events -->
+      <section id="events" class="section events-section">
+        <div class="container">
+          <div class="section-title scroll-anim">
+            <h2>Wedding Events</h2>
+            <p>We can't wait to celebrate with you.</p>
+          </div>
+
+          <div class="events-grid">
+            <!-- Ceremony -->
+            <div class="event-card glass-panel scroll-anim left">
+              <div class="event-icon"><i class="fa-solid fa-ring"></i></div>
+              <h3>Holy Matrimony</h3>
+              <div class="event-details">
+                <p><i class="fa-regular fa-calendar"></i> Saturday, 25 Oct 2026</p>
+                <p><i class="fa-regular fa-clock"></i> 09:00 AM - 11:00 AM</p>
+                <p><i class="fa-solid fa-location-dot"></i> <strong>St. Patrick's Cathedral</strong><br />5th Ave, New York</p>
+              </div>
+              <a href="#" class="btn-outline">Save to Calendar</a>
+            </div>
+
+            <!-- Reception -->
+            <div class="event-card glass-panel scroll-anim right">
+              <div class="event-icon"><i class="fa-solid fa-champagne-glasses"></i></div>
+              <h3>Wedding Reception</h3>
+              <div class="event-details">
+                <p><i class="fa-regular fa-calendar"></i> Saturday, 25 Oct 2026</p>
+                <p><i class="fa-regular fa-clock"></i> 18:00 PM - End</p>
+                <p><i class="fa-solid fa-location-dot"></i> <strong>The Plaza Hotel</strong><br />768 5th Ave, New York</p>
+              </div>
+              <a href="#" class="btn-outline">Save to Calendar</a>
+            </div>
+          </div>
+
+          <!-- Map Embed -->
+          <div class="map-container scroll-anim">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.0620610996163!2d-73.97827822435555!3d40.76063643464161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f0004ffbe5%3A0x6b77afbdf8b6e65a!2sSt.%20Patrick&#39;s%20Cathedral!5e0!3m2!1sen!2sid!4v1714457718037!5m2!1sen!2sid"
+              width="100%"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <a href="https://maps.google.com" target="_blank" class="btn-primary map-btn"><i class="fa-solid fa-map-location-dot"></i> Open Google Maps</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section id="gallery" class="section gallery-section bg-ivory">
+        <div class="container">
+          <div class="section-title scroll-anim">
+            <h2>Our Gallery</h2>
+            <p>Beautiful moments we've shared together.</p>
+          </div>
+
+          <div class="gallery-masonry" id="gallery-container">
+            <div class="gallery-item scroll-anim"><img src="assets/images/gallery_1_1784545429181.jpg" class="gal-img" alt="Gallery" /></div>
+            <div class="gallery-item scroll-anim"><img src="assets/images/gallery_2_1784545438542.jpg" class="gal-img" alt="Gallery" /></div>
+            <div class="gallery-item scroll-anim"><img src="assets/images/couple_hero_1784545389455.jpg" class="gal-img" alt="Gallery" /></div>
+            <div class="gallery-item scroll-anim"><img src="assets/images/bride_portrait_1784545401041.jpg" class="gal-img" alt="Gallery" /></div>
+            <div class="gallery-item scroll-anim"><img src="assets/images/groom_portrait_1784545410931.jpg" class="gal-img" alt="Gallery" /></div>
+          </div>
+        </div>
+
+        <!-- Lightbox -->
+        <div id="lightbox" class="lightbox">
+          <span class="close-lightbox">&times;</span>
+          <img class="lightbox-content" id="lightbox-img" />
+        </div>
+      </section>
+
+      <!-- RSVP & Wishes -->
+      <section id="rsvp" class="section rsvp-section">
+        <div class="container">
+          <div class="rsvp-wishes-grid">
+            <!-- RSVP Form -->
+            <div class="rsvp-container glass-panel scroll-anim left">
+              <h2>RSVP</h2>
+              <p>Please confirm your attendance.</p>
+              <form id="rsvp-form">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" required placeholder="e.g. John Doe" />
+                </div>
+                <div class="form-group">
+                  <label for="attendance">Will you attend?</label>
+                  <select id="attendance" required>
+                    <option value="" disabled selected>Select option</option>
+                    <option value="yes">Yes, I will attend</option>
+                    <option value="no">Sorry, I can't come</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="guests">Number of Guests</label>
+                  <input type="number" id="guests" min="1" max="5" value="1" />
+                </div>
+                <button type="submit" class="btn-primary w-100">Send RSVP</button>
+              </form>
+            </div>
+
+            <!-- Wishes -->
+            <div class="wishes-container glass-panel scroll-anim right">
+              <h2>Wedding Wishes</h2>
+              <form id="wish-form">
+                <div class="form-group">
+                  <input type="text" id="wisher-name" required placeholder="Your Name" />
+                </div>
+                <div class="form-group">
+                  <textarea id="wish-text" rows="3" required placeholder="Write your wishes here..."></textarea>
+                </div>
+                <button type="submit" class="btn-outline w-100">Send Wish</button>
+              </form>
+
+              <div class="wishes-list" id="wishes-list">
+                <!-- Existing wishes -->
+                <div class="wish-card">
+                  <h4>Sarah & Family <span class="badge success">Attending</span></h4>
+                  <p>Congratulations Eleanor and Theodore! Wishing you a lifetime of happiness and love. Can't wait for the big day!</p>
+                  <span class="time">Just now</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gifts -->
+      <section id="gifts" class="section gifts-section bg-ivory">
+        <div class="container">
+          <div class="section-title scroll-anim">
+            <h2>Wedding Gift</h2>
+            <p>Your blessing is the most meaningful gift to us. However, if you wish to give a gift, you can use the details below.</p>
+          </div>
+
+          <div class="gifts-grid">
+            <div class="gift-card scroll-anim left">
+              <i class="fa-solid fa-building-columns gift-icon"></i>
+              <h3>Bank Transfer</h3>
+              <p class="bank-name">BCA</p>
+              <p class="account-number" id="acc-1">1234567890</p>
+              <p class="account-name">Eleanor Rose</p>
+              <button class="btn-copy" onclick="copyText('acc-1', this)"><i class="fa-regular fa-copy"></i> Copy Number</button>
+            </div>
+
+            <div class="gift-card scroll-anim right">
+              <i class="fa-solid fa-building-columns gift-icon"></i>
+              <h3>Bank Transfer</h3>
+              <p class="bank-name">Mandiri</p>
+              <p class="account-number" id="acc-2">0987654321</p>
+              <p class="account-name">Theodore Vance</p>
+              <button class="btn-copy" onclick="copyText('acc-2', this)"><i class="fa-regular fa-copy"></i> Copy Number</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container scroll-anim">
+          <h2>Eleanor & Theodore</h2>
+          <p>Thank you for being part of our special day.</p>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+          <p class="copyright">&copy; 2026 Eleanor & Theodore. Designed with ❤️</p>
+        </div>
+      </footer>
     </main>
 
     <!-- Floating Buttons -->
     <div class="floating-controls hidden" id="floating-controls">
-        <button id="music-btn" class="float-btn"><i class="fa-solid fa-music"></i></button>
-        <a href="https://wa.me/123456789" target="_blank" class="float-btn whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+      <button id="music-btn" class="float-btn"><i class="fa-solid fa-music"></i></button>
+      <a href="https://wa.me/123456789" target="_blank" class="float-btn whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
     </div>
 
     <!-- Audio (Placeholder) -->
     <audio id="bg-music" loop>
-        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      <source src="assets/audio/barasuara.mp3" type="audio/mpeg" />
     </audio>
 
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
