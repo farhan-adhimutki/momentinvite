@@ -2,18 +2,18 @@
 
 /* Variables */
 :root {
-  --color-primary: #d4af37; /* Gold */
-  --color-primary-dark: #b5952f;
+  --color-primary: #981818; /* Gold */
+  --color-primary-dark: #800000;
   --color-bg-white: #ffffff;
-  --color-bg-ivory: #fffff0;
+  --color-bg-ivory: #800000;
   --color-text-main: #f8f4f4;
-  --color-text-light: #666666;
+  --color-text-light: #aaa9a9;
 
   --font-heading: 'Playfair Display', serif;
   --font-body: 'Inter', sans-serif;
 
   --glass-bg: rgba(255, 255, 255, 0.75);
-  --glass-border: rgba(255, 255, 255, 0.3);
+  --glass-border: rgba(255, 255, 255, 0.62);
   --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.05);
   --shadow-medium: 0 15px 35px rgba(0, 0, 0, 0.1);
 
@@ -648,6 +648,10 @@ blockquote {
   font-size: 0.85rem;
   color: var(--color-text-light);
   margin-bottom: 1rem;
+}
+
+.timeline-content p {
+  color: #333;
 }
 
 /* Events */
