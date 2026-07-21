@@ -316,7 +316,7 @@ img {
   font-family: var(--font-heading);
   font-size: 1.5rem;
   font-weight: 700;
-  color: white;
+  color: #800000;
   transition: var(--transition-smooth);
 }
 
